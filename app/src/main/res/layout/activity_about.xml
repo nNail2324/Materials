@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/foto">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Шарипов Наиль Ирекович\nДата рождения: 30.09.2003 \nКонтактные данные:\n Адрес: с. Чекмагуш, ул. Луговая 6\n Телефон: +79174052869\n E-mail: nail.sharipov.2003@mail.ru\nОбразование: \n 2021-2025 - УГНТУ, специальность\n Программное обеспечение \n средств вычислительной техники и \n автоматизированных систем"
+            android:textSize="20sp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBack"
+        android:text="Назад"
+        android:textSize="20sp">
+    </Button>
+
+</LinearLayout>

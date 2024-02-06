@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Solution">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ввод значений"
+        android:textSize="30sp">
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Переменная A"
+                android:textSize="20sp"
+                android:gravity="center">
+            </TextView>
+
+            <EditText
+                android:id="@+id/varA"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Переменная B"
+                android:textSize="20sp"
+                android:gravity="center">
+            </TextView>
+
+            <EditText
+                android:id="@+id/varB"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </EditText>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/bt_transfer"
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Tertiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTransfer"
+        android:text="Передать"
+        android:textSize="30sp">
+    </Button>
+
+</LinearLayout>
