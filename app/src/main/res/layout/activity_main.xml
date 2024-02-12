@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Решение неравенства"
+        android:text="A|x| + B &lt; 0"
         android:textSize="30sp"
         android:textColor="@color/white"
         android:background="@color/black">
@@ -35,7 +35,7 @@
             <TextView
                 android:id="@+id/varA"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20sp"
                 android:gravity="center">
@@ -55,7 +55,7 @@
             <TextView
                 android:id="@+id/varB"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20sp"
                 android:gravity="center">
@@ -90,5 +90,14 @@
             </TextView>
         </TableRow>
     </TableLayout>
-    
+
+    <Button
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBackResult"
+        android:text="Назад"
+        android:textSize="30sp">
+    </Button>
+
 </LinearLayout>

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Ввод значений"
+        android:text="A|x| + B &lt; 0"
         android:textSize="30sp">
     </TextView>
 
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:gravity="center">
             </TextView>
 
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:gravity="center">
             </TextView>
 

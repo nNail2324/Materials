@@ -3,6 +3,7 @@ package com.example.lr2_2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView VarA, VarB;
+    TextView VarA, VarB, result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,25 +26,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void change(View view) {
-        TextView result = findViewById(R.id.tv1);
+        result = findViewById(R.id.tv1);
 
-        String textA = VarA.getText().toString();
-        String textB = VarB.getText().toString();
-        double numberA = 0;
-        double numberB = 0;
-
-        if (!(textA.isEmpty() && textB.isEmpty())) {
-            try {
-                numberA = Double.parseDouble(textA);
-                numberB = Double.parseDouble(textB);
-            } catch (NumberFormatException e) {
-                result.setText("Введите числовое значение!");
-                e.printStackTrace();
-            }
-        }
+        double numberA = Double.parseDouble(VarA.getText().toString());
+        double numberB = Double.parseDouble(VarB.getText().toString());
 
         String X1 = String.format("%.3f", numberB/numberA);
-        String X2 = String.format("%.3f", -numberB/numberA);
+        @SuppressLint("DefaultLocale") String X2 = String.format("%.3f", -numberB/numberA);
 
         if (numberA > 0 && numberB > 0) {
             result.setText("Нет решений");
@@ -58,5 +47,14 @@ public class MainActivity extends AppCompatActivity {
             result.setText("Верно для всех x");
         }
 
+    }
+
+    public void onClickBackResult(View view) {
+        Intent intent_res = new Intent();
+
+        intent_res.putExtra("result", result.getText());
+        intent_res.putExtra("name", "Результат");
+        setResult(RESULT_OK, intent_res);
+        finish();
     }
 }
