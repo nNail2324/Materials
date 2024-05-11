@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Виндхук">
+        <item>Проход Гамсберга</item>
+        <item>Заповедник Даан-Вильюн</item>
+        <item>Дамараленд</item>
+    </string-array>
+
+    <string-array name="Рунду">
+        <item>Mbunza Living Museum</item>
+        <item>FAWENA Kavango Basket Shop</item>
+    </string-array>
+    
+    <string-array name="Уолфиш_Бей">
+        <item>Dune 7</item>
+        <item>Walvis Bay Waterfront</item>
+        <item>Flamingo lagoon</item>
+        <item>Long Beach Leisure Park</item>
+    </string-array>
+
+    <string-array name="Ошакати">
+        <item>Bando Chill Spot</item>
+        <item>Oshakati Recreational park</item>
+    </string-array>
+    
+    <string-array name="Свакопмунд">
+        <item>Музей Свакопмунд</item>
+        <item>Swakopmund Jetty</item>
+        <item>Welwitschia Plains</item>
+        <item>Discover Namibia Private Day Tours</item>
+        <item>Snake Park</item>
+    </string-array>
+
+    <string-array name="Хрутфонтейн">
+        <item>Omalunga Stadion</item>
+        <item>Old Fort Museum</item>
+        <item>Grootfontein Rugby Club</item>
+    </string-array>
+
+    <string-array name="Катима_Мулило">
+        <item>Impalila Island</item>
+        <item>Caprivi Adventures</item>
+        <item>Mukolo Photo Tours</item>
+        <item>Hippo AquaCulture Farm</item>
+    </string-array>
+
+    <string-array name="Окаханджа">
+        <item>Gereformeerde Kerk</item>
+        <item>N G Kerk</item>
+        <item>Mbangura Woodcarvers Craft Market</item>
+    </string-array>
+
+    <string-array name="Очиваронго">
+        <item>Africat</item>
+        <item>Waterberg National Park</item>
+        <item>Mahango Game Reserve</item>
+    </string-array>
+
+    <string-array name="Рехобот">
+        <item>Deadvlei</item>
+        <item>Independence Museum</item>
+        <item>Esk Kerk</item>
+    </string-array>
+</resources>

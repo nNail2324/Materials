@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image">
+        <item>@drawable/cement</item>
+        <item>@drawable/brick</item>
+        <item>@drawable/sand</item>
+        <item>@drawable/construction</item>
+        <item>@drawable/tubes</item>
+        <item>@drawable/pipe</item>
+        <item>@drawable/corner</item>
+    </array>
+</resources>

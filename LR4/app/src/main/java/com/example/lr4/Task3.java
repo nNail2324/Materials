@@ -66,6 +66,5 @@ public class Task3 extends AppCompatActivity {
             Toast.makeText(this, "Ошибка при сохранении", Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
-
     }
 }

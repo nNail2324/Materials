@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="materials">
+        <item>Цемент</item>
+        <item>Кирпич</item>
+        <item>Песок</item>
+        <item>Арматура</item>
+        <item>Труба стальная</item>
+        <item>Труба водогазопроводная</item>
+        <item>Уголок</item>
+    </string-array>
+</resources>

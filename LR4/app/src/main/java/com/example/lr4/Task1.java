@@ -34,7 +34,7 @@ public class Task1 extends AppCompatActivity {
     private class MyClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-            view.loadUrl(request.toString());
+            view.loadUrl(request.getUrl().toString());
             return true;
         }
     }
